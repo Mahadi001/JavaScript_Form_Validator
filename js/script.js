@@ -48,8 +48,6 @@ function checklength(input, min, max) {
 function checkPasswordMatch(input, input2) {
   if (input.value != input2.value) {
     showError(input2, `Passwords didn't match with`);
-  } else {
-    showSuccess(input);
   }
 }
 
